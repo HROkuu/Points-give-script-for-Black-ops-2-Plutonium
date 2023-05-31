@@ -1,6 +1,5 @@
 init()
 {
-	SetDvar( "scr_zm_enable_bots", "0" );
 	level thread onPlayerConnect();	
 }
 
